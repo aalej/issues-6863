@@ -32,9 +32,9 @@ jobs:
 6. GitHub action raises an error when deploying the Next.js application
 
 ```
-  ***
+   ***
     "status": "error",
-    "error": "Could not find the next executable."
+    "error": "Unable to detect the web framework in use, check firebase-debug.log for more info.\n\n\u001b[1mDocumentation:\u001b[22m https://firebase.google.com/docs/hosting/frameworks/frameworks-overview\n\u001b[1mFile a bug:\u001b[22m https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md\n\u001b[1mSubmit a feature request:\u001b[22m https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md\n\nWe'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X"
   ***
 ```
 
@@ -43,5 +43,3 @@ see https://github.com/aalej/issues-6863/actions/runs/8233857278/job/22514273947
 ## Notes:
 
 Deploying locally using firebase-tools v13.4.1 works fine
-
-
